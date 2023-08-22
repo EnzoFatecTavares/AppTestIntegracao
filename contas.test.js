@@ -1,6 +1,5 @@
-const contas = require('./contas');
+const contas = require("./contas");
 
-test("Soma 2 + 5 esperando 7 como resultado", ()=> {
-    expect(contas.soma(2,5)).toBe(7)
-    
-})
+test("Subtração de 5 - 2 esperando 3 como resultado", () => {
+  expect(contas.subtracao(5, 2)).toBe(3);
+});
